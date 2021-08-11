@@ -1,0 +1,13 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>firstProgram</servlet-name>
+        <servlet-class>com.injamam11.FirstServletProgram</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>firstProgram</servlet-name>
+        <url-pattern>/get-firstProgram</url-pattern>
+    </servlet-mapping>
+
+</web-app>
